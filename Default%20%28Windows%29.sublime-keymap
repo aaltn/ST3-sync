@@ -1,0 +1,49 @@
+[
+  { "keys": ["shift+alt+c"], "command": "run_macro_file", "args": {"file": "Packages/User/macros_add_class.sublime-macro"} },
+  { "keys": ["ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/macros_add_sk.sublime-macro"} },
+  { "keys": ["f2"], "command": "next_bookmark" },
+  { "keys": ["shift+f2"], "command": "prev_bookmark" },
+
+  { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 5.0 } },
+  { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -5.0 } },
+
+  {
+    "keys": [
+      "ctrl+shift+0"
+    ],
+    "args": {
+      "action": "balance_inward"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.balance_inward"
+      }
+    ]
+  },
+  {
+    "keys": ["ctrl+alt+l"], "command": "list_stylesheet_variables"
+  },
+  {
+  "keys": ["shift+alt+p"], "command": "prompt_select_workspace"
+  },
+  {
+    "keys": [
+      "alt+w"
+    ],
+    "command": "wrap_as_you_type",
+    "context": [
+      {
+        "operand": false,
+        "operator": "equal",
+        "match_all": true,
+        "key": "setting.is_widget"
+      },
+      {
+        "match_all": true,
+        "key": "emmet_action_enabled.wrap_as_you_type"
+      }
+    ]
+  },
+
+]

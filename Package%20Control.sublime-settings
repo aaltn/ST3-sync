@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"DocBlockr",
+		"eCSStractor",
+		"EditorConfig",
+		"Emmet",
+		"GitGutter",
+		"JSX",
+		"LESS",
+		"List stylesheet variables",
+		"MarkdownLight",
+		"Package Control",
+		"Sass",
+		"SideBarEnhancements",
+		"StringEncode",
+		"Sync Settings",
+		"Syntax Highlighting for PostCSS",
+		"View In Browser"
+	]
+}

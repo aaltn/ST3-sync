@@ -1,0 +1,6 @@
+{
+  "destination": "clipboard",
+  "bem_nesting": true,
+  "indentation": "  ",
+  "empty_line_before_nested_selector": true
+}

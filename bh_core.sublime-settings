@@ -1,0 +1,58 @@
+{
+  "bracket_styles": {
+    // незакрытые
+    "unmatched": {
+      "icon": "question",
+      "color": "brackethighlighter.unmatched",
+      "style": "highlight"
+    },
+    // фигурные скобки
+    "curly": {
+      "icon": "curly_bracket",
+      "color": "brackethighlighter.curly",
+      "style": "highlight"
+    },
+    // полукруглые скобки
+    "round": {
+      "icon": "round_bracket",
+      "color": "brackethighlighter.round",
+      "style": "highlight"
+    },
+    // квадратные скобки
+    "square": {
+      "icon": "square_bracket",
+      "color": "brackethighlighter.square",
+      "style": "highlight"
+    },
+    // угловые скобки
+    "angle": {
+      "icon": "angle_bracket",
+      "color": "brackethighlighter.angle",
+      "style": "highlight"
+    },
+    // теги
+    "tag": {
+      "icon": "tag",
+      "color": "brackethighlighter.tag",
+      "style": "highlight"
+    },
+    // одиночные кавычки
+    "single_quote": {
+      "icon": "single_quote",
+      "color": "brackethighlighter.quote",
+      "style": "highlight"
+    },
+    // двойные кавычки
+    "double_quote": {
+      "icon": "double_quote",
+      "color": "brackethighlighter.quote",
+      "style": "highlight"
+    },
+    // регулярные выражения
+    "regex": {
+      "icon": "regex",
+      "color": "brackethighlighter.quote",
+      "style": "outline"
+    }
+  }
+}
